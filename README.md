@@ -75,6 +75,11 @@ Whether you're seeking quick answers to queries or translating text into a prefe
    streamlit run ChatBot.py
    ```
 
+## Results
+If you're on Team Lazy like me and would rather skip all the tasks, no worries—just kick back and check out the Streamlit app right here!
+   ```bash
+   https://chatbotstranslate.streamlit.app
+   ```
 
 
 ## Usage
@@ -93,6 +98,11 @@ The application is divided into two pages:
    - Enter the text you want to translate.
    - Click on the "Translate" button to generate the translated text.
    - If the input field is empty, an error message will prompt you to provide valid text.
+
+3. **Check out the images here for reference**
+![alt text](image.png)
+![alt text](image-1.png)
+![alt text](image-2.png)
 
 
 ## Contributions
