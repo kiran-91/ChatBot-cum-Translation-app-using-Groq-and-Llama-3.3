@@ -25,14 +25,14 @@ input_text=st.text_input("What question do you have in mind")
 
 
 chain=prompt|model|parser
-if st.button("Answer this question"):
-    if input_text.strip() == "":
-        st.error("Please enter any question")
-    else:
-        try:
-            with st.spinner("Your response is being generated....."):
-                response=chain.invoke({"Question":input_text})
-                with st.container(border=True):
-                    st.write(response)
-        except Exception as e:
-                st.error(f"An error occured: {e}")
+
+if input_text.strip() == "":
+    st.error("Please enter any question")
+else:
+    try:
+        with st.spinner("Your response is being generated....."):
+            response=chain.invoke({"Question":input_text})
+            with st.container(border=True):
+                st.write(response)
+    except Exception as e:
+            st.error(f"An error occured: {e}")
