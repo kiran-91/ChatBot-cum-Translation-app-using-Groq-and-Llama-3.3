@@ -18,6 +18,7 @@ Whether you're seeking quick answers to queries or translating text into a prefe
 │   ├── 01_LanguageTranslation.py
 │   ├── 02_ChatBot.py
 ├── requirements.txt        # Dependencies for the app
+├── Dockerfile              # For docker containerization
 └── README.md
 ```
 
