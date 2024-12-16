@@ -11,13 +11,14 @@ This application demonstrates how AI models can be utilized for diverse use case
 
 Whether you're seeking quick answers to queries or translating text into a preferred language, this application serves as a powerful example of integrating cutting-edge AI technology into real-world applications
 
-## Project Structure
-
-```
-├── ChatBot.py                 # Chatbot application page
-├── 01_LanguageTranslation.py  # Language translation application page
-├── requirements.txt           # Dependencies for the project
-├── .env                       # Environment variables (not included in the repository)
+```bash
+📁 Project Folder
+├── app.py                  # Main entry point for Streamlit
+├── pages/                  # For multi-page setup
+│   ├── 01_LanguageTranslation.py
+│   ├── 02_ChatBot.py
+├── requirements.txt        # Dependencies for the app
+└── README.md
 ```
 
 
