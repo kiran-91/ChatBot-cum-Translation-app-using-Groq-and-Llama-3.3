@@ -1,0 +1,7 @@
+langchain
+langchain-community
+groq
+ipykernel
+langchain-groq
+streamlit 
+faiss-cpu
