@@ -72,7 +72,7 @@ Whether you're seeking quick answers to queries or translating text into a prefe
 4. Run the Streamlit application:
 
    ```bash
-   streamlit run ChatBot.py
+   streamlit run App.py
    ```
 
 ## Results
