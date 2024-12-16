@@ -15,7 +15,7 @@ parser=StrOutputParser()
 st.title("Language Translation App")
 st.write("This app uses the Groq and Meta's AI model to translate text into different languages.")
 
-input_language=st.selectbox("Select a language",("Hindi", "French", "Spanish", "Telugu", "Kannada"))
+input_language=st.selectbox("Select a language",("Hindi", "Telugu", "Kannada","Tamil", "Malayalam", "Marathi","French", "Spanish", "Japanese", "Chinese"))
 input_text=st.text_input("Enter the text to be translated")
 
 
