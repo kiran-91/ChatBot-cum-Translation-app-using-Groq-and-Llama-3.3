@@ -120,4 +120,5 @@ This project is licensed under the MIT License. See the LICENSE file for more de
 - [Groq AI](https://www.groq.com/): For their powerful and efficient language model platform.
 - [Streamlit](https://streamlit.io/): For the elegant and user-friendly UI framework.
 - [Meta's Llama Models](https://ai.facebook.com/tools/llama): For the underlying AI technology/models.
+- [Langchain](https://langchain.com/): For providing a framework that simplifies the development of applications using language models.
 
