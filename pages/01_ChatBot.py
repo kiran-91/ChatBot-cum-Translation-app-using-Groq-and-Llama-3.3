@@ -19,15 +19,15 @@ prompt=ChatPromptTemplate.from_messages(
 # streamlit app 
 
 st.title("A simple ChatBot powered by Llama")
-st.markdown("Leveraging :red[Groq's] innovative platform")
-st.markdown("Utilizing :red[Llama 3.3-70b-Versatile] model")
-input_text=st.text_input("What question do you have in mind")
+st.markdown("Leveraging `Groq's` innovative platform")
+st.markdown("Utilizing `Llama 3.3-70b-Versatile` model")
+input_text=st.chat_input("What question do you have in mind")
 
 
 
 chain=prompt|model|parser
 
-if input_text.strip() == "":
+if input_text == "":
     st.error("Please enter any message to get a response")
 else:
     try:

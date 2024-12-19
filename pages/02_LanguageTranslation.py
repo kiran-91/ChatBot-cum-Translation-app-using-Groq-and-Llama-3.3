@@ -12,15 +12,15 @@ parser=StrOutputParser()
 
 # streamlit app
 st.title("Language Translation App")
-st.markdown(":orange[This app utilizes the computational power of Groq and the advanced language understanding of Meta's AI model to provide accurate and efficient text translation capabilities across multiple languages]")
+st.markdown(":orange[This app utilizes the computational power of `Groq` and the advanced language understanding of Meta's AI model `Llama 3.3` to provide accurate and efficient text translation capabilities across multiple languages]")
 
 input_language=st.selectbox("Select a language",("Hindi", "Telugu", "Kannada","Tamil", "Malayalam", "Marathi", "Bengali" ,"French", "Spanish", "Japanese", "Chinese"))
-input_text=st.text_input("Enter the text to be translated")
+input_text=st.chat_input("Enter the text to be translated")
 
 
 # Translation button
 if st.button("Translate"):
-    if input_text.strip() == "":
+    if input_text == "":
         st.error("Please enter some text to translate.")
     else:
         # Define the prompt template
