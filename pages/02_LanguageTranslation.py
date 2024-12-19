@@ -12,9 +12,9 @@ parser=StrOutputParser()
 
 # streamlit app
 st.title("Language Translation App")
-st.write("This app uses the Groq and Meta's AI model to translate text into different languages.")
+st.markdown(":orange[This app utilizes the computational power of Groq and the advanced language understanding of Meta's AI model to provide accurate and efficient text translation capabilities across multiple languages]")
 
-input_language=st.selectbox("Select a language",("Hindi", "Telugu", "Kannada","Tamil", "Malayalam", "Marathi","French", "Spanish", "Japanese", "Chinese"))
+input_language=st.selectbox("Select a language",("Hindi", "Telugu", "Kannada","Tamil", "Malayalam", "Marathi", "Bengali" ,"French", "Spanish", "Japanese", "Chinese"))
 input_text=st.text_input("Enter the text to be translated")
 
 
