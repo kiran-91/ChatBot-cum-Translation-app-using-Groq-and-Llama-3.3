@@ -26,7 +26,7 @@ input_text=st.text_input("What question do you have in mind")
 chain=prompt|model|parser
 
 if input_text.strip() == "":
-    st.error("Please enter any question")
+    st.error("Please enter any message to get a response")
 else:
     try:
         with st.spinner("Your response is being generated....."):
