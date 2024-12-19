@@ -19,8 +19,8 @@ prompt=ChatPromptTemplate.from_messages(
 # streamlit app 
 
 st.title("A simple ChatBot powered by Llama")
-st.button("Leveraging Groq's innovative platform")
-st.button("Utilizing :black[Llama 3.3-70b-Versatile] model")
+st.markdown("Leveraging :red[Groq's] innovative platform")
+st.markdown("Utilizing :red[Llama 3.3-70b-Versatile] model")
 input_text=st.text_input("What question do you have in mind")
 
 
